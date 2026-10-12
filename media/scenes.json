@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "b1",
+    "name": "Sculpture garden",
+    "dataset": "dl3dv",
+    "context": 64,
+    "width": 490,
+    "height": 280,
+    "video": "media/videos/b1-comparison.mp4",
+    "fps": 8,
+    "frameCount": 73,
+    "frames": [
+      {
+        "index": 0,
+        "kind": "CTX"
+      },
+      {
+        "index": 1,
+        "kind": "CTX"
+      },
+      {
+        "index": 2,
+        "kind": "CTX"
+      },
+      {
+        "index": 3,
+        "kind": "CTX"
+      },
+      {
+        "index": 4,
+        "kind": "CTX"
+      },
+      {
+        "index": 5,
+        "kind": "CTX"
+      },
+      {
+        "index": 6,
+        "kind": "CTX"
+      },
+      {
+        "index": 7,
+        "kind": "NVS"
+      },
+      {
+        "index": 8,
+        "kind": "CTX"
+      },
+      {
+        "index": 9,
+        "kind": "CTX"
+      },
+      {
+        "index": 10,
+        "kind": "CTX"
+      },
+      {
+        "index": 11,
+        "kind": "CTX"
+      },
+      {
+        "index": 12,
+        "kind": "CTX"
+      },
+      {
+        "index": 13,
+        "kind": "CTX"
+      },
+      {
+        "index": 14,
+        "kind": "CTX"
+      },
+      {
+        "index": 15,
+        "kind": "NVS"
+      },
+      {
+        "index": 16,
+        "kind": "CTX"
+      },
+      {
+        "index": 17,
+        "kind": "CTX"
+      },
+      {
+        "index": 18,
+        "kind": "CTX"
+      },
+      {
+        "index": 19,
+        "kind": "CTX"
+      },
+      {
+        "index": 20,
+        "kind": "CTX"
+      },
+      {
+        "index": 21,
+        "kind": "CTX"
+      },
+      {
+        "index": 22,
+        "kind": "CTX"
+      },
+      {
+        "index": 23,
+        "kind": "NVS"
+      },
+      {
+        "index": 24,
+        "kind": "CTX"
+      },
+      {
+        "index": 25,
+        "kind": "CTX"
+      },
+      {
+        "index": 26,
+        "kind": "CTX"
+      },
+      {
+        "index": 27,
+        "kind": "CTX"
+      },
+      {
+        "index": 28,
+        "kind": "CTX"
+      },
+      {
+        "index": 29,
+        "kind": "CTX"
+      },
+      {
+        "index": 30,
+        "kind": "CTX"
+      },
+      {
+        "index": 31,
+        "kind": "NVS"
+      },
+      {
+        "index": 32,
+        "kind": "CTX"
+      },
+      {
+        "index": 33,
+        "kind": "CTX"
+      },
+      {
+        "index": 34,
+        "kind": "CTX"
+      },
+      {
+        "index": 35,
+        "kind": "CTX"
+      },
+      {
+        "index": 36,
+        "kind": "CTX"
+      },
+      {
+        "index": 37,
+        "kind": "CTX"
+      },
+      {
+        "index": 38,
+        "kind": "CTX"
+      },
+      {
+        "index": 39,
+        "kind": "NVS"
+      },
+      {
+        "index": 40,
+        "kind": "CTX"
+      },
+      {
+        "index": 41,
+        "kind": "CTX"
+      },
+      {
+        "index": 42,
+        "kind": "CTX"
+      },
+      {
+        "index": 43,
+        "kind": "CTX"
+      },
+      {
+        "index": 44,
+        "kind": "CTX"
+      },
+      {
+        "index": 45,
+        "kind": "CTX"
+      },
+      {
+        "index": 46,
+        "kind": "CTX"
+      },
+      {
+        "index": 47,
+        "kind": "NVS"
+      },
+      {
+        "index": 48,
+        "kind": "CTX"
+      },
+      {
+        "index": 49,
+        "kind": "CTX"
+      },
+      {
+        "index": 50,
+        "kind": "CTX"
+      },
+      {
+        "index": 51,
+        "kind": "CTX"
+      },
+      {
+        "index": 52,
+        "kind": "CTX"
+      },
+      {
+        "index": 53,
+        "kind": "CTX"
+      },
+      {
+        "index": 54,
+        "kind": "CTX"
+      },
+      {
+        "index": 55,
+        "kind": "NVS"
+      },
+      {
+        "index": 56,
+        "kind": "CTX"
+      },
+      {
+        "index": 57,
+        "kind": "CTX"
+      },
+      {
+        "index": 58,
+        "kind": "CTX"
+      },
+      {
+        "index": 59,
+        "kind": "CTX"
+      },
+      {
+        "index": 60,
+        "kind": "CTX"
+      },
+      {
+        "index": 61,
+        "kind": "CTX"
+      },
+      {
+        "index": 62,
+        "kind": "CTX"
+      },
+      {
+        "index": 63,
+        "kind": "NVS"
+      },
+      {
+        "index": 64,
+        "kind": "CTX"
+      },
+      {
+        "index": 65,
+        "kind": "CTX"
+      },
+      {
+        "index": 66,
+        "kind": "CTX"
+      },
+      {
+        "index": 67,
+        "kind": "CTX"
+      },
+      {
+        "index": 68,
+        "kind": "CTX"
+      },
+      {
+        "index": 69,
+        "kind": "CTX"
+      },
+      {
+        "index": 70,
+        "kind": "CTX"
+      },
+      {
+        "index": 71,
+        "kind": "NVS"
+      },
+      {
+        "index": 72,
+        "kind": "CTX"
+      }
+    ]
+  },
+  {
+    "id": "a4",
+    "name": "Stairway",
+    "dataset": "re10k",
+    "context": 64,
+    "width": 490,
+    "height": 280,
+    "video": "media/videos/a4-comparison.mp4",
+    "fps": 8,
+    "frameCount": 73,
+    "frames": [
+      {
+        "index": 0,
+        "kind": "CTX"
+      },
+      {
+        "index": 1,
+        "kind": "CTX"
+      },
+      {
+        "index": 2,
+        "kind": "CTX"
+      },
+      {
+        "index": 3,
+        "kind": "CTX"
+      },
+      {
+        "index": 4,
+        "kind": "CTX"
+      },
+      {
+        "index": 5,
+        "kind": "CTX"
+      },
+      {
+        "index": 6,
+        "kind": "CTX"
+      },
+      {
+        "index": 7,
+        "kind": "NVS"
+      },
+      {
+        "index": 8,
+        "kind": "CTX"
+      },
+      {
+        "index": 9,
+        "kind": "CTX"
+      },
+      {
+        "index": 10,
+        "kind": "CTX"
+      },
+      {
+        "index": 11,
+        "kind": "CTX"
+      },
+      {
+        "index": 12,
+        "kind": "CTX"
+      },
+      {
+        "index": 13,
+        "kind": "CTX"
+      },
+      {
+        "index": 14,
+        "kind": "CTX"
+      },
+      {
+        "index": 15,
+        "kind": "NVS"
+      },
+      {
+        "index": 16,
+        "kind": "CTX"
+      },
+      {
+        "index": 17,
+        "kind": "CTX"
+      },
+      {
+        "index": 18,
+        "kind": "CTX"
+      },
+      {
+        "index": 19,
+        "kind": "CTX"
+      },
+      {
+        "index": 20,
+        "kind": "CTX"
+      },
+      {
+        "index": 21,
+        "kind": "CTX"
+      },
+      {
+        "index": 22,
+        "kind": "CTX"
+      },
+      {
+        "index": 23,
+        "kind": "NVS"
+      },
+      {
+        "index": 24,
+        "kind": "CTX"
+      },
+      {
+        "index": 25,
+        "kind": "CTX"
+      },
+      {
+        "index": 26,
+        "kind": "CTX"
+      },
+      {
+        "index": 27,
+        "kind": "CTX"
+      },
+      {
+        "index": 28,
+        "kind": "CTX"
+      },
+      {
+        "index": 29,
+        "kind": "CTX"
+      },
+      {
+        "index": 30,
+        "kind": "CTX"
+      },
+      {
+        "index": 31,
+        "kind": "NVS"
+      },
+      {
+        "index": 32,
+        "kind": "CTX"
+      },
+      {
+        "index": 33,
+        "kind": "CTX"
+      },
+      {
+        "index": 34,
+        "kind": "CTX"
+      },
+      {
+        "index": 35,
+        "kind": "CTX"
+      },
+      {
+        "index": 36,
+        "kind": "CTX"
+      },
+      {
+        "index": 37,
+        "kind": "CTX"
+      },
+      {
+        "index": 38,
+        "kind": "CTX"
+      },
+      {
+        "index": 39,
+        "kind": "NVS"
+      },
+      {
+        "index": 40,
+        "kind": "CTX"
+      },
+      {
+        "index": 41,
+        "kind": "CTX"
+      },
+      {
+        "index": 42,
+        "kind": "CTX"
+      },
+      {
+        "index": 43,
+        "kind": "CTX"
+      },
+      {
+        "index": 44,
+        "kind": "CTX"
+      },
+      {
+        "index": 45,
+        "kind": "CTX"
+      },
+      {
+        "index": 46,
+        "kind": "CTX"
+      },
+      {
+        "index": 47,
+        "kind": "NVS"
+      },
+      {
+        "index": 48,
+        "kind": "CTX"
+      },
+      {
+        "index": 49,
+        "kind": "CTX"
+      },
+      {
+        "index": 50,
+        "kind": "CTX"
+      },
+      {
+        "index": 51,
+        "kind": "CTX"
+      },
+      {
+        "index": 52,
+        "kind": "CTX"
+      },
+      {
+        "index": 53,
+        "kind": "CTX"
+      },
+      {
+        "index": 54,
+        "kind": "CTX"
+      },
+      {
+        "index": 55,
+        "kind": "NVS"
+      },
+      {
+        "index": 56,
+        "kind": "CTX"
+      },
+      {
+        "index": 57,
+        "kind": "CTX"
+      },
+      {
+        "index": 58,
+        "kind": "CTX"
+      },
+      {
+        "index": 59,
+        "kind": "CTX"
+      },
+      {
+        "index": 60,
+        "kind": "CTX"
+      },
+      {
+        "index": 61,
+        "kind": "CTX"
+      },
+      {
+        "index": 62,
+        "kind": "CTX"
+      },
+      {
+        "index": 63,
+        "kind": "NVS"
+      },
+      {
+        "index": 64,
+        "kind": "CTX"
+      },
+      {
+        "index": 65,
+        "kind": "CTX"
+      },
+      {
+        "index": 66,
+        "kind": "CTX"
+      },
+      {
+        "index": 67,
+        "kind": "CTX"
+      },
+      {
+        "index": 68,
+        "kind": "CTX"
+      },
+      {
+        "index": 69,
+        "kind": "CTX"
+      },
+      {
+        "index": 70,
+        "kind": "CTX"
+      },
+      {
+        "index": 71,
+        "kind": "NVS"
+      },
+      {
+        "index": 72,
+        "kind": "CTX"
+      }
+    ]
+  },
+  {
+    "id": "b2",
+    "name": "Living room",
+    "dataset": "dl3dv",
+    "context": 96,
+    "width": 490,
+    "height": 280,
+    "video": "media/videos/b2-comparison.mp4",
+    "fps": 8,
+    "frameCount": 109,
+    "frames": [
+      {
+        "index": 0,
+        "kind": "CTX"
+      },
+      {
+        "index": 1,
+        "kind": "CTX"
+      },
+      {
+        "index": 2,
+        "kind": "CTX"
+      },
+      {
+        "index": 3,
+        "kind": "CTX"
+      },
+      {
+        "index": 4,
+        "kind": "CTX"
+      },
+      {
+        "index": 5,
+        "kind": "CTX"
+      },
+      {
+        "index": 6,
+        "kind": "CTX"
+      },
+      {
+        "index": 7,
+        "kind": "NVS"
+      },
+      {
+        "index": 8,
+        "kind": "CTX"
+      },
+      {
+        "index": 9,
+        "kind": "CTX"
+      },
+      {
+        "index": 10,
+        "kind": "CTX"
+      },
+      {
+        "index": 11,
+        "kind": "CTX"
+      },
+      {
+        "index": 12,
+        "kind": "CTX"
+      },
+      {
+        "index": 13,
+        "kind": "CTX"
+      },
+      {
+        "index": 14,
+        "kind": "CTX"
+      },
+      {
+        "index": 15,
+        "kind": "NVS"
+      },
+      {
+        "index": 16,
+        "kind": "CTX"
+      },
+      {
+        "index": 17,
+        "kind": "CTX"
+      },
+      {
+        "index": 18,
+        "kind": "CTX"
+      },
+      {
+        "index": 19,
+        "kind": "CTX"
+      },
+      {
+        "index": 20,
+        "kind": "CTX"
+      },
+      {
+        "index": 21,
+        "kind": "CTX"
+      },
+      {
+        "index": 22,
+        "kind": "CTX"
+      },
+      {
+        "index": 23,
+        "kind": "NVS"
+      },
+      {
+        "index": 24,
+        "kind": "CTX"
+      },
+      {
+        "index": 25,
+        "kind": "CTX"
+      },
+      {
+        "index": 26,
+        "kind": "CTX"
+      },
+      {
+        "index": 27,
+        "kind": "CTX"
+      },
+      {
+        "index": 28,
+        "kind": "CTX"
+      },
+      {
+        "index": 29,
+        "kind": "CTX"
+      },
+      {
+        "index": 30,
+        "kind": "CTX"
+      },
+      {
+        "index": 31,
+        "kind": "NVS"
+      },
+      {
+        "index": 32,
+        "kind": "CTX"
+      },
+      {
+        "index": 33,
+        "kind": "CTX"
+      },
+      {
+        "index": 34,
+        "kind": "CTX"
+      },
+      {
+        "index": 35,
+        "kind": "CTX"
+      },
+      {
+        "index": 36,
+        "kind": "CTX"
+      },
+      {
+        "index": 37,
+        "kind": "CTX"
+      },
+      {
+        "index": 38,
+        "kind": "CTX"
+      },
+      {
+        "index": 39,
+        "kind": "NVS"
+      },
+      {
+        "index": 40,
+        "kind": "CTX"
+      },
+      {
+        "index": 41,
+        "kind": "CTX"
+      },
+      {
+        "index": 42,
+        "kind": "CTX"
+      },
+      {
+        "index": 43,
+        "kind": "CTX"
+      },
+      {
+        "index": 44,
+        "kind": "CTX"
+      },
+      {
+        "index": 45,
+        "kind": "CTX"
+      },
+      {
+        "index": 46,
+        "kind": "CTX"
+      },
+      {
+        "index": 47,
+        "kind": "NVS"
+      },
+      {
+        "index": 48,
+        "kind": "CTX"
+      },
+      {
+        "index": 49,
+        "kind": "CTX"
+      },
+      {
+        "index": 50,
+        "kind": "CTX"
+      },
+      {
+        "index": 51,
+        "kind": "CTX"
+      },
+      {
+        "index": 52,
+        "kind": "CTX"
+      },
+      {
+        "index": 53,
+        "kind": "CTX"
+      },
+      {
+        "index": 54,
+        "kind": "CTX"
+      },
+      {
+        "index": 55,
+        "kind": "NVS"
+      },
+      {
+        "index": 56,
+        "kind": "CTX"
+      },
+      {
+        "index": 57,
+        "kind": "CTX"
+      },
+      {
+        "index": 58,
+        "kind": "CTX"
+      },
+      {
+        "index": 59,
+        "kind": "CTX"
+      },
+      {
+        "index": 60,
+        "kind": "CTX"
+      },
+      {
+        "index": 61,
+        "kind": "CTX"
+      },
+      {
+        "index": 62,
+        "kind": "CTX"
+      },
+      {
+        "index": 63,
+        "kind": "NVS"
+      },
+      {
+        "index": 64,
+        "kind": "CTX"
+      },
+      {
+        "index": 65,
+        "kind": "CTX"
+      },
+      {
+        "index": 66,
+        "kind": "CTX"
+      },
+      {
+        "index": 67,
+        "kind": "CTX"
+      },
+      {
+        "index": 68,
+        "kind": "CTX"
+      },
+      {
+        "index": 69,
+        "kind": "CTX"
+      },
+      {
+        "index": 70,
+        "kind": "CTX"
+      },
+      {
+        "index": 71,
+        "kind": "NVS"
+      },
+      {
+        "index": 72,
+        "kind": "CTX"
+      },
+      {
+        "index": 73,
+        "kind": "CTX"
+      },
+      {
+        "index": 74,
+        "kind": "CTX"
+      },
+      {
+        "index": 75,
+        "kind": "CTX"
+      },
+      {
+        "index": 76,
+        "kind": "CTX"
+      },
+      {
+        "index": 77,
+        "kind": "CTX"
+      },
+      {
+        "index": 78,
+        "kind": "CTX"
+      },
+      {
+        "index": 79,
+        "kind": "NVS"
+      },
+      {
+        "index": 80,
+        "kind": "CTX"
+      },
+      {
+        "index": 81,
+        "kind": "CTX"
+      },
+      {
+        "index": 82,
+        "kind": "CTX"
+      },
+      {
+        "index": 83,
+        "kind": "CTX"
+      },
+      {
+        "index": 84,
+        "kind": "CTX"
+      },
+      {
+        "index": 85,
+        "kind": "CTX"
+      },
+      {
+        "index": 86,
+        "kind": "CTX"
+      },
+      {
+        "index": 87,
+        "kind": "NVS"
+      },
+      {
+        "index": 88,
+        "kind": "CTX"
+      },
+      {
+        "index": 89,
+        "kind": "CTX"
+      },
+      {
+        "index": 90,
+        "kind": "CTX"
+      },
+      {
+        "index": 91,
+        "kind": "CTX"
+      },
+      {
+        "index": 92,
+        "kind": "CTX"
+      },
+      {
+        "index": 93,
+        "kind": "CTX"
+      },
+      {
+        "index": 94,
+        "kind": "CTX"
+      },
+      {
+        "index": 95,
+        "kind": "NVS"
+      },
+      {
+        "index": 96,
+        "kind": "CTX"
+      },
+      {
+        "index": 97,
+        "kind": "CTX"
+      },
+      {
+        "index": 98,
+        "kind": "CTX"
+      },
+      {
+        "index": 99,
+        "kind": "CTX"
+      },
+      {
+        "index": 100,
+        "kind": "CTX"
+      },
+      {
+        "index": 101,
+        "kind": "CTX"
+      },
+      {
+        "index": 102,
+        "kind": "CTX"
+      },
+      {
+        "index": 103,
+        "kind": "NVS"
+      },
+      {
+        "index": 104,
+        "kind": "CTX"
+      },
+      {
+        "index": 105,
+        "kind": "CTX"
+      },
+      {
+        "index": 106,
+        "kind": "CTX"
+      },
+      {
+        "index": 107,
+        "kind": "CTX"
+      },
+      {
+        "index": 108,
+        "kind": "CTX"
+      }
+    ]
+  },
+  {
+    "id": "b5",
+    "name": "Hallway",
+    "dataset": "re10k",
+    "context": 96,
+    "width": 490,
+    "height": 280,
+    "video": "media/videos/b5-comparison.mp4",
+    "fps": 8,
+    "frameCount": 109,
+    "frames": [
+      {
+        "index": 0,
+        "kind": "CTX"
+      },
+      {
+        "index": 1,
+        "kind": "CTX"
+      },
+      {
+        "index": 2,
+        "kind": "CTX"
+      },
+      {
+        "index": 3,
+        "kind": "CTX"
+      },
+      {
+        "index": 4,
+        "kind": "CTX"
+      },
+      {
+        "index": 5,
+        "kind": "CTX"
+      },
+      {
+        "index": 6,
+        "kind": "CTX"
+      },
+      {
+        "index": 7,
+        "kind": "NVS"
+      },
+      {
+        "index": 8,
+        "kind": "CTX"
+      },
+      {
+        "index": 9,
+        "kind": "CTX"
+      },
+      {
+        "index": 10,
+        "kind": "CTX"
+      },
+      {
+        "index": 11,
+        "kind": "CTX"
+      },
+      {
+        "index": 12,
+        "kind": "CTX"
+      },
+      {
+        "index": 13,
+        "kind": "CTX"
+      },
+      {
+        "index": 14,
+        "kind": "CTX"
+      },
+      {
+        "index": 15,
+        "kind": "NVS"
+      },
+      {
+        "index": 16,
+        "kind": "CTX"
+      },
+      {
+        "index": 17,
+        "kind": "CTX"
+      },
+      {
+        "index": 18,
+        "kind": "CTX"
+      },
+      {
+        "index": 19,
+        "kind": "CTX"
+      },
+      {
+        "index": 20,
+        "kind": "CTX"
+      },
+      {
+        "index": 21,
+        "kind": "CTX"
+      },
+      {
+        "index": 22,
+        "kind": "CTX"
+      },
+      {
+        "index": 23,
+        "kind": "NVS"
+      },
+      {
+        "index": 24,
+        "kind": "CTX"
+      },
+      {
+        "index": 25,
+        "kind": "CTX"
+      },
+      {
+        "index": 26,
+        "kind": "CTX"
+      },
+      {
+        "index": 27,
+        "kind": "CTX"
+      },
+      {
+        "index": 28,
+        "kind": "CTX"
+      },
+      {
+        "index": 29,
+        "kind": "CTX"
+      },
+      {
+        "index": 30,
+        "kind": "CTX"
+      },
+      {
+        "index": 31,
+        "kind": "NVS"
+      },
+      {
+        "index": 32,
+        "kind": "CTX"
+      },
+      {
+        "index": 33,
+        "kind": "CTX"
+      },
+      {
+        "index": 34,
+        "kind": "CTX"
+      },
+      {
+        "index": 35,
+        "kind": "CTX"
+      },
+      {
+        "index": 36,
+        "kind": "CTX"
+      },
+      {
+        "index": 37,
+        "kind": "CTX"
+      },
+      {
+        "index": 38,
+        "kind": "CTX"
+      },
+      {
+        "index": 39,
+        "kind": "NVS"
+      },
+      {
+        "index": 40,
+        "kind": "CTX"
+      },
+      {
+        "index": 41,
+        "kind": "CTX"
+      },
+      {
+        "index": 42,
+        "kind": "CTX"
+      },
+      {
+        "index": 43,
+        "kind": "CTX"
+      },
+      {
+        "index": 44,
+        "kind": "CTX"
+      },
+      {
+        "index": 45,
+        "kind": "CTX"
+      },
+      {
+        "index": 46,
+        "kind": "CTX"
+      },
+      {
+        "index": 47,
+        "kind": "NVS"
+      },
+      {
+        "index": 48,
+        "kind": "CTX"
+      },
+      {
+        "index": 49,
+        "kind": "CTX"
+      },
+      {
+        "index": 50,
+        "kind": "CTX"
+      },
+      {
+        "index": 51,
+        "kind": "CTX"
+      },
+      {
+        "index": 52,
+        "kind": "CTX"
+      },
+      {
+        "index": 53,
+        "kind": "CTX"
+      },
+      {
+        "index": 54,
+        "kind": "CTX"
+      },
+      {
+        "index": 55,
+        "kind": "NVS"
+      },
+      {
+        "index": 56,
+        "kind": "CTX"
+      },
+      {
+        "index": 57,
+        "kind": "CTX"
+      },
+      {
+        "index": 58,
+        "kind": "CTX"
+      },
+      {
+        "index": 59,
+        "kind": "CTX"
+      },
+      {
+        "index": 60,
+        "kind": "CTX"
+      },
+      {
+        "index": 61,
+        "kind": "CTX"
+      },
+      {
+        "index": 62,
+        "kind": "CTX"
+      },
+      {
+        "index": 63,
+        "kind": "NVS"
+      },
+      {
+        "index": 64,
+        "kind": "CTX"
+      },
+      {
+        "index": 65,
+        "kind": "CTX"
+      },
+      {
+        "index": 66,
+        "kind": "CTX"
+      },
+      {
+        "index": 67,
+        "kind": "CTX"
+      },
+      {
+        "index": 68,
+        "kind": "CTX"
+      },
+      {
+        "index": 69,
+        "kind": "CTX"
+      },
+      {
+        "index": 70,
+        "kind": "CTX"
+      },
+      {
+        "index": 71,
+        "kind": "NVS"
+      },
+      {
+        "index": 72,
+        "kind": "CTX"
+      },
+      {
+        "index": 73,
+        "kind": "CTX"
+      },
+      {
+        "index": 74,
+        "kind": "CTX"
+      },
+      {
+        "index": 75,
+        "kind": "CTX"
+      },
+      {
+        "index": 76,
+        "kind": "CTX"
+      },
+      {
+        "index": 77,
+        "kind": "CTX"
+      },
+      {
+        "index": 78,
+        "kind": "CTX"
+      },
+      {
+        "index": 79,
+        "kind": "NVS"
+      },
+      {
+        "index": 80,
+        "kind": "CTX"
+      },
+      {
+        "index": 81,
+        "kind": "CTX"
+      },
+      {
+        "index": 82,
+        "kind": "CTX"
+      },
+      {
+        "index": 83,
+        "kind": "CTX"
+      },
+      {
+        "index": 84,
+        "kind": "CTX"
+      },
+      {
+        "index": 85,
+        "kind": "CTX"
+      },
+      {
+        "index": 86,
+        "kind": "CTX"
+      },
+      {
+        "index": 87,
+        "kind": "NVS"
+      },
+      {
+        "index": 88,
+        "kind": "CTX"
+      },
+      {
+        "index": 89,
+        "kind": "CTX"
+      },
+      {
+        "index": 90,
+        "kind": "CTX"
+      },
+      {
+        "index": 91,
+        "kind": "CTX"
+      },
+      {
+        "index": 92,
+        "kind": "CTX"
+      },
+      {
+        "index": 93,
+        "kind": "CTX"
+      },
+      {
+        "index": 94,
+        "kind": "CTX"
+      },
+      {
+        "index": 95,
+        "kind": "NVS"
+      },
+      {
+        "index": 96,
+        "kind": "CTX"
+      },
+      {
+        "index": 97,
+        "kind": "CTX"
+      },
+      {
+        "index": 98,
+        "kind": "CTX"
+      },
+      {
+        "index": 99,
+        "kind": "CTX"
+      },
+      {
+        "index": 100,
+        "kind": "CTX"
+      },
+      {
+        "index": 101,
+        "kind": "CTX"
+      },
+      {
+        "index": 102,
+        "kind": "CTX"
+      },
+      {
+        "index": 103,
+        "kind": "NVS"
+      },
+      {
+        "index": 104,
+        "kind": "CTX"
+      },
+      {
+        "index": 105,
+        "kind": "CTX"
+      },
+      {
+        "index": 106,
+        "kind": "CTX"
+      },
+      {
+        "index": 107,
+        "kind": "CTX"
+      },
+      {
+        "index": 108,
+        "kind": "CTX"
+      }
+    ]
+  },
+  {
+    "id": "b6",
+    "name": "Home interior",
+    "dataset": "re10k",
+    "context": 128,
+    "width": 490,
+    "height": 280,
+    "video": "media/videos/b6-comparison.mp4",
+    "fps": 8,
+    "frameCount": 146,
+    "frames": [
+      {
+        "index": 0,
+        "kind": "CTX"
+      },
+      {
+        "index": 1,
+        "kind": "CTX"
+      },
+      {
+        "index": 2,
+        "kind": "CTX"
+      },
+      {
+        "index": 3,
+        "kind": "CTX"
+      },
+      {
+        "index": 4,
+        "kind": "CTX"
+      },
+      {
+        "index": 5,
+        "kind": "CTX"
+      },
+      {
+        "index": 6,
+        "kind": "CTX"
+      },
+      {
+        "index": 7,
+        "kind": "NVS"
+      },
+      {
+        "index": 8,
+        "kind": "CTX"
+      },
+      {
+        "index": 9,
+        "kind": "CTX"
+      },
+      {
+        "index": 10,
+        "kind": "CTX"
+      },
+      {
+        "index": 11,
+        "kind": "CTX"
+      },
+      {
+        "index": 12,
+        "kind": "CTX"
+      },
+      {
+        "index": 13,
+        "kind": "CTX"
+      },
+      {
+        "index": 14,
+        "kind": "CTX"
+      },
+      {
+        "index": 15,
+        "kind": "NVS"
+      },
+      {
+        "index": 16,
+        "kind": "CTX"
+      },
+      {
+        "index": 17,
+        "kind": "CTX"
+      },
+      {
+        "index": 18,
+        "kind": "CTX"
+      },
+      {
+        "index": 19,
+        "kind": "CTX"
+      },
+      {
+        "index": 20,
+        "kind": "CTX"
+      },
+      {
+        "index": 21,
+        "kind": "CTX"
+      },
+      {
+        "index": 22,
+        "kind": "CTX"
+      },
+      {
+        "index": 23,
+        "kind": "NVS"
+      },
+      {
+        "index": 24,
+        "kind": "CTX"
+      },
+      {
+        "index": 25,
+        "kind": "CTX"
+      },
+      {
+        "index": 26,
+        "kind": "CTX"
+      },
+      {
+        "index": 27,
+        "kind": "CTX"
+      },
+      {
+        "index": 28,
+        "kind": "CTX"
+      },
+      {
+        "index": 29,
+        "kind": "CTX"
+      },
+      {
+        "index": 30,
+        "kind": "CTX"
+      },
+      {
+        "index": 31,
+        "kind": "NVS"
+      },
+      {
+        "index": 32,
+        "kind": "CTX"
+      },
+      {
+        "index": 33,
+        "kind": "CTX"
+      },
+      {
+        "index": 34,
+        "kind": "CTX"
+      },
+      {
+        "index": 35,
+        "kind": "CTX"
+      },
+      {
+        "index": 36,
+        "kind": "CTX"
+      },
+      {
+        "index": 37,
+        "kind": "CTX"
+      },
+      {
+        "index": 38,
+        "kind": "CTX"
+      },
+      {
+        "index": 39,
+        "kind": "NVS"
+      },
+      {
+        "index": 40,
+        "kind": "CTX"
+      },
+      {
+        "index": 41,
+        "kind": "CTX"
+      },
+      {
+        "index": 42,
+        "kind": "CTX"
+      },
+      {
+        "index": 43,
+        "kind": "CTX"
+      },
+      {
+        "index": 44,
+        "kind": "CTX"
+      },
+      {
+        "index": 45,
+        "kind": "CTX"
+      },
+      {
+        "index": 46,
+        "kind": "CTX"
+      },
+      {
+        "index": 47,
+        "kind": "NVS"
+      },
+      {
+        "index": 48,
+        "kind": "CTX"
+      },
+      {
+        "index": 49,
+        "kind": "CTX"
+      },
+      {
+        "index": 50,
+        "kind": "CTX"
+      },
+      {
+        "index": 51,
+        "kind": "CTX"
+      },
+      {
+        "index": 52,
+        "kind": "CTX"
+      },
+      {
+        "index": 53,
+        "kind": "CTX"
+      },
+      {
+        "index": 54,
+        "kind": "CTX"
+      },
+      {
+        "index": 55,
+        "kind": "NVS"
+      },
+      {
+        "index": 56,
+        "kind": "CTX"
+      },
+      {
+        "index": 57,
+        "kind": "CTX"
+      },
+      {
+        "index": 58,
+        "kind": "CTX"
+      },
+      {
+        "index": 59,
+        "kind": "CTX"
+      },
+      {
+        "index": 60,
+        "kind": "CTX"
+      },
+      {
+        "index": 61,
+        "kind": "CTX"
+      },
+      {
+        "index": 62,
+        "kind": "CTX"
+      },
+      {
+        "index": 63,
+        "kind": "NVS"
+      },
+      {
+        "index": 64,
+        "kind": "CTX"
+      },
+      {
+        "index": 65,
+        "kind": "CTX"
+      },
+      {
+        "index": 66,
+        "kind": "CTX"
+      },
+      {
+        "index": 67,
+        "kind": "CTX"
+      },
+      {
+        "index": 68,
+        "kind": "CTX"
+      },
+      {
+        "index": 69,
+        "kind": "CTX"
+      },
+      {
+        "index": 70,
+        "kind": "CTX"
+      },
+      {
+        "index": 71,
+        "kind": "NVS"
+      },
+      {
+        "index": 72,
+        "kind": "CTX"
+      },
+      {
+        "index": 73,
+        "kind": "CTX"
+      },
+      {
+        "index": 74,
+        "kind": "CTX"
+      },
+      {
+        "index": 75,
+        "kind": "CTX"
+      },
+      {
+        "index": 76,
+        "kind": "CTX"
+      },
+      {
+        "index": 77,
+        "kind": "CTX"
+      },
+      {
+        "index": 78,
+        "kind": "CTX"
+      },
+      {
+        "index": 79,
+        "kind": "NVS"
+      },
+      {
+        "index": 80,
+        "kind": "CTX"
+      },
+      {
+        "index": 81,
+        "kind": "CTX"
+      },
+      {
+        "index": 82,
+        "kind": "CTX"
+      },
+      {
+        "index": 83,
+        "kind": "CTX"
+      },
+      {
+        "index": 84,
+        "kind": "CTX"
+      },
+      {
+        "index": 85,
+        "kind": "CTX"
+      },
+      {
+        "index": 86,
+        "kind": "CTX"
+      },
+      {
+        "index": 87,
+        "kind": "NVS"
+      },
+      {
+        "index": 88,
+        "kind": "CTX"
+      },
+      {
+        "index": 89,
+        "kind": "CTX"
+      },
+      {
+        "index": 90,
+        "kind": "CTX"
+      },
+      {
+        "index": 91,
+        "kind": "CTX"
+      },
+      {
+        "index": 92,
+        "kind": "CTX"
+      },
+      {
+        "index": 93,
+        "kind": "CTX"
+      },
+      {
+        "index": 94,
+        "kind": "CTX"
+      },
+      {
+        "index": 95,
+        "kind": "NVS"
+      },
+      {
+        "index": 96,
+        "kind": "CTX"
+      },
+      {
+        "index": 97,
+        "kind": "CTX"
+      },
+      {
+        "index": 98,
+        "kind": "CTX"
+      },
+      {
+        "index": 99,
+        "kind": "CTX"
+      },
+      {
+        "index": 100,
+        "kind": "CTX"
+      },
+      {
+        "index": 101,
+        "kind": "CTX"
+      },
+      {
+        "index": 102,
+        "kind": "CTX"
+      },
+      {
+        "index": 103,
+        "kind": "NVS"
+      },
+      {
+        "index": 104,
+        "kind": "CTX"
+      },
+      {
+        "index": 105,
+        "kind": "CTX"
+      },
+      {
+        "index": 106,
+        "kind": "CTX"
+      },
+      {
+        "index": 107,
+        "kind": "CTX"
+      },
+      {
+        "index": 108,
+        "kind": "CTX"
+      },
+      {
+        "index": 109,
+        "kind": "CTX"
+      },
+      {
+        "index": 110,
+        "kind": "CTX"
+      },
+      {
+        "index": 111,
+        "kind": "NVS"
+      },
+      {
+        "index": 112,
+        "kind": "CTX"
+      },
+      {
+        "index": 113,
+        "kind": "CTX"
+      },
+      {
+        "index": 114,
+        "kind": "CTX"
+      },
+      {
+        "index": 115,
+        "kind": "CTX"
+      },
+      {
+        "index": 116,
+        "kind": "CTX"
+      },
+      {
+        "index": 117,
+        "kind": "CTX"
+      },
+      {
+        "index": 118,
+        "kind": "CTX"
+      },
+      {
+        "index": 119,
+        "kind": "NVS"
+      },
+      {
+        "index": 120,
+        "kind": "CTX"
+      },
+      {
+        "index": 121,
+        "kind": "CTX"
+      },
+      {
+        "index": 122,
+        "kind": "CTX"
+      },
+      {
+        "index": 123,
+        "kind": "CTX"
+      },
+      {
+        "index": 124,
+        "kind": "CTX"
+      },
+      {
+        "index": 125,
+        "kind": "CTX"
+      },
+      {
+        "index": 126,
+        "kind": "CTX"
+      },
+      {
+        "index": 127,
+        "kind": "NVS"
+      },
+      {
+        "index": 128,
+        "kind": "CTX"
+      },
+      {
+        "index": 129,
+        "kind": "CTX"
+      },
+      {
+        "index": 130,
+        "kind": "CTX"
+      },
+      {
+        "index": 131,
+        "kind": "CTX"
+      },
+      {
+        "index": 132,
+        "kind": "CTX"
+      },
+      {
+        "index": 133,
+        "kind": "CTX"
+      },
+      {
+        "index": 134,
+        "kind": "CTX"
+      },
+      {
+        "index": 135,
+        "kind": "NVS"
+      },
+      {
+        "index": 136,
+        "kind": "CTX"
+      },
+      {
+        "index": 137,
+        "kind": "CTX"
+      },
+      {
+        "index": 138,
+        "kind": "CTX"
+      },
+      {
+        "index": 139,
+        "kind": "CTX"
+      },
+      {
+        "index": 140,
+        "kind": "CTX"
+      },
+      {
+        "index": 141,
+        "kind": "CTX"
+      },
+      {
+        "index": 142,
+        "kind": "CTX"
+      },
+      {
+        "index": 143,
+        "kind": "NVS"
+      },
+      {
+        "index": 144,
+        "kind": "CTX"
+      },
+      {
+        "index": 145,
+        "kind": "CTX"
+      }
+    ]
+  }
+]

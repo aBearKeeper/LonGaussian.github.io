@@ -1,0 +1,29 @@
+[
+  {
+    "id": "garden",
+    "name": "Sculpture garden",
+    "context": 64,
+    "count": 1891054,
+    "bytes": 136348772,
+    "metadata": "media/geometry/garden/scene.json",
+    "poster": "media/geometry/garden/poster.jpg"
+  },
+  {
+    "id": "courtyard",
+    "name": "Domed courtyard",
+    "context": 96,
+    "count": 1497187,
+    "bytes": 107987748,
+    "metadata": "media/geometry/courtyard/scene.json",
+    "poster": "media/geometry/courtyard/poster.jpg"
+  },
+  {
+    "id": "showroom",
+    "name": "Furniture showroom",
+    "context": 96,
+    "count": 2246533,
+    "bytes": 161874632,
+    "metadata": "media/geometry/showroom/scene.json",
+    "poster": "media/geometry/showroom/poster.jpg"
+  }
+]

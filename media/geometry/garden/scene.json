@@ -1,0 +1,74 @@
+{
+  "scene": "Sculpture garden",
+  "scope": "Full scene reconstructed from 64 context views",
+  "sceneId": "ff592398657b3dfe94153332861985194a3e3c9d199c4a3a27a0ce4038e81ade",
+  "count": 1891054,
+  "sourceCount": 1922031,
+  "invalidCount": 0,
+  "nativeOpacityThreshold": 0.01,
+  "nativeThresholdExcludedCount": 30977,
+  "contextCount": 64,
+  "referenceFrame": 23,
+  "cameraPosition": [
+    0,
+    0,
+    0
+  ],
+  "cameraLookAt": [
+    2.4384469985961914,
+    1.2113224267959595,
+    -2.912440776824951
+  ],
+  "cameraUp": [
+    -0.01582084223628044,
+    -0.9184423089027405,
+    -0.3952378034591675
+  ],
+  "cameraFov": 65.35259063306253,
+  "near": 0.01,
+  "far": 10000000000,
+  "K": [
+    [
+      214.66627502441406,
+      0,
+      245
+    ],
+    [
+      0,
+      218.27099609375,
+      140
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "H": 280,
+  "W": 490,
+  "coordinateCenter": [
+    -0.08963502943515778,
+    -0.2758960723876953,
+    0.6474711894989014
+  ],
+  "coordinateScale": 1,
+  "attributes": [
+    "means",
+    "scales",
+    "wxyz rotations",
+    "opacity",
+    "degree-2 SH"
+  ],
+  "compression": "KSPLAT level 1: float16 attributes and SH; uint8 alpha/color",
+  "opacityRemovalThreshold": 0,
+  "sampling": "No subsampling or spatial crop; native render opacity threshold only",
+  "urls": [
+    "reconstruction-00.ksplat",
+    "reconstruction-01.ksplat"
+  ],
+  "partCounts": [
+    1000000,
+    891054
+  ],
+  "bytes": 136348772
+}

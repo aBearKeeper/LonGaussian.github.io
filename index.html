@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LonGaussian: compact, renderable Gaussian scenes from long image sequences through streaming geometry and tracking foundation priors.">
+  <meta property="og:title" content="LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction">
+  <meta property="og:description" content="Stream long image sequences. Consolidate repeated observations. Render compact Gaussian scenes.">
+  <meta property="og:image" content="media/posters/b2-ours.jpg">
+  <title>LonGaussian · Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction</title>
+  <link rel="icon" href="favicon.svg?v=07711bdc1af2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=09f116cf5d73">
+  <script src="script.js?v=ff11ac3cf416" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">Skip to content</a>
+  <main>
+    <section class="hero" id="top" aria-labelledby="paper-title">
+      <div class="hero-backdrop" aria-hidden="true">
+        <video id="hero-video" data-ambient loop muted playsinline preload="none" poster="media/posters/b2-ours.jpg" data-src="media/videos/b2-ours.mp4"></video>
+      </div>
+      <div class="hero-scrim"></div>
+      <div class="hero-content container">
+        <p class="kicker">Long-context feed-forward 3D reconstruction</p>
+        <h1 id="paper-title"><span class="gradient-word">LonGaussian</span>: Tracking Foundation Priors<br class="desktop-break"> for Long-Context Feedforward<br class="desktop-break"> Gaussian Reconstruction</h1>
+        <p class="authors"><span>Zhoufeng Xie</span><span>Guanjun Wu</span><span>Shuai Zhang</span><span>Xinggang Wang</span><span>Wenyu Liu<sup>*</sup></span></p>
+        <p class="affiliation">Huazhong University of Science and Technology</p>
+        <p class="correspondence">* Corresponding author</p>
+        <div class="publication-links">
+          <a class="pill" href="media/longaussian.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h8"/></svg>Paper</a>
+          <span class="pill unavailable" aria-label="Code release coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg>Code <small>(soon)</small></span>
+          <a class="pill" href="#results"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg>Video results</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5.4<span>×</span></strong><p>fewer Gaussians than OF3GS<br>at RE10K / 64 views</p></div>
+          <div><strong>64–128</strong><p>context views evaluated<br>on DL3DV and RealEstate10K</p></div>
+          <div><strong>3,768</strong><p>frames in a single-scene<br>scalability study</p></div>
+        </div>
+        <p class="hero-note">Background: LonGaussian rendering along a DL3DV sequence reconstructed from 96 context views.</p>
+        <a href="#overview" class="discover">Explore the work <span aria-hidden="true">↓</span></a>
+      </div>
+      <button class="motion-button" id="toggle-motion" type="button" aria-pressed="false" hidden>Pause background</button>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="container">
+        <h2>Long sequences.<br><span class="accent">Fewer repeated Gaussians.</span></h2>
+        <div class="prose">
+          <p>As a camera moves, the same surfaces appear again and again. Predicting a Gaussian at every input pixel and accumulating these predictions repeatedly represents the same geometry. Streaming the backbone alone does not remove this redundancy.</p>
+          <p><strong>LonGaussian connects streaming geometry with correspondence-guided consolidation.</strong> LoGeR provides long-context features and camera estimates. Within each chunk, multi-frame tracks associate repeated observations, and a learned merger consolidates their Gaussian predictions. A dense complement preserves regions without reliable tracks.</p>
+        </div>
+        <figure class="paper-figure">
+          <button type="button" class="figure-zoom" data-image="media/images/teaser.webp" aria-label="Enlarge long-sequence reconstruction overview"><img src="media/images/teaser.webp" loading="lazy" alt="A long camera trajectory, reconstructed Gaussian scene, and example renderings from LonGaussian"></button>
+          <figcaption>From a long image sequence to an accumulated, renderable Gaussian scene. Input camera poses are unknown; intrinsics are provided.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section tinted" id="abstract">
+      <div class="container narrow">
+        <h2>Abstract</h2>
+        <div class="prose">
+          <p>Reconstructing high-quality, renderable 3D scenes from long videos is essential for robotic perception and embodied intelligence. Many feed-forward Gaussian reconstruction methods rapidly predict 3D scenes from a small set of images, but extending them to longer sequences presents two bottlenecks: jointly processing all views increases GPU memory requirements, while accumulating pixel-aligned predictions redundantly represents the same surfaces and increases storage and rendering costs.</p>
+          <p>We present <strong>LonGaussian</strong>, a streaming feed-forward framework that reconstructs compact, globally renderable Gaussian scenes from long image sequences with known intrinsics and unknown camera poses. Built on a pretrained streaming 3D reconstruction backbone, LonGaussian decodes long-context geometric features into dense Gaussians. Within each chunk, multi-frame point tracks link repeated observations of the same surface and guide a learned merger to consolidate the corresponding Gaussian predictions. Rendered-depth consistency filtering further suppresses Gaussians from other chunks that incorrectly occlude locally reconstructed surfaces. On DL3DV and RealEstate10K benchmarks, LonGaussian improves novel-view rendering quality while using substantially fewer Gaussians than the evaluated feed-forward baselines.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="method">
+      <div class="container">
+        <h2>Method</h2>
+        <p class="section-lede">Stream the geometry. Associate observations. Consolidate the representation.</p>
+        <figure class="paper-figure">
+          <button type="button" class="figure-zoom" data-image="media/images/method.webp" aria-label="Enlarge method overview"><img src="media/images/method.webp" loading="lazy" alt="LonGaussian pipeline: frozen geometry and tracking backbones, Gaussian prediction, learned merging, accumulation and artifact handling"></button>
+          <figcaption>Frozen geometric and tracking priors guide Gaussian reconstruction and consolidation within each chunk.</figcaption>
+        </figure>
+        <div class="method-grid">
+          <article><span class="step">01</span><h3>Streaming geometry</h3><p>LoGeR processes overlapping chunks with hybrid memory, predicting camera poses, dense geometry, and long-context features. A Gaussian decoder maps these features to scene primitives.</p></article>
+          <article><span class="step">02</span><h3>Track-guided consolidation</h3><p>AllTracker links observations of the same surface within a chunk. The learned merger refines representative Gaussians; a dense complement retains content without reliable track support.</p></article>
+          <article><span class="step">03</span><h3>Accumulate and filter</h3><p>Chunk predictions enter a shared coordinate system. Rendered-depth voting suppresses cross-chunk occluders, while a far-field Gaussian shell models unstable sky geometry.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="results">
+      <div class="container wide">
+        <h2>Video results</h2>
+        <p class="section-lede">Compare DL3DV and RealEstate10K sequences using one synchronized player. Drag the divider to reveal the selected reference.</p>
+
+        <article class="result-block" data-player="comparisons">
+          <header class="result-header"><p class="kicker">DL3DV</p><h3 id="comparison-title">Living room · 96 context views</h3><p>Select a scene and a reference method, then drag to compare.</p></header>
+          <div class="baseline-options" aria-label="Comparison method">
+            <button type="button" data-method="3" class="selected" aria-pressed="true">OF3GS</button>
+            <button type="button" data-method="1" aria-pressed="false">ReCoSplat (official)</button>
+            <button type="button" data-method="2" aria-pressed="false">ReCoSplat (adapted)</button>
+            <button type="button" data-method="0" aria-pressed="false">Ground Truth</button>
+          </div>
+          <div class="wipe" style="--poster:url('media/posters/b2-ours.jpg')">
+            <canvas width="980" height="560" aria-label="LonGaussian on the left, selected reference on the right"></canvas>
+            <span class="wipe-line" aria-hidden="true"><span class="wipe-handle"><svg viewBox="0 0 24 24"><path d="m9 8-4 4 4 4m6-8 4 4-4 4"/></svg></span></span>
+            <span class="media-label ours">LonGaussian (Ours)</span><span class="media-label reference">OF3GS</span>
+            <input class="wipe-range" type="range" min="0" max="100" value="50" aria-label="Comparison divider position" aria-valuetext="50 percent Ours, 50 percent reference">
+          </div>
+          <div class="player-controls"><button class="play-button" type="button" disabled>Play</button><input class="seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Comparison video position" disabled><span class="frame-badge">Loading</span><span class="time">0.0 s</span></div>
+          <div class="scene-strip" aria-label="Comparison scene">
+            <button type="button" class="scene-choice selected" data-scene="b2" aria-pressed="true"><img src="media/posters/b2-ours.jpg" loading="lazy" alt="Living room"><span>DL3DV · 96 views</span></button>
+            <button type="button" class="scene-choice" data-scene="b1" aria-pressed="false"><img src="media/posters/b1-ours.jpg" loading="lazy" alt="Sculpture garden"><span>DL3DV · 64 views</span></button>
+            <button type="button" class="scene-choice" data-scene="a4" aria-pressed="false"><img src="media/posters/a4-ours.jpg" loading="lazy" alt="Stairway"><span>RE10K · 64 views</span></button>
+            <button type="button" class="scene-choice" data-scene="b5" aria-pressed="false"><img src="media/posters/b5-ours.jpg" loading="lazy" alt="Hallway"><span>RE10K · 96 views</span></button>
+            <button type="button" class="scene-choice" data-scene="b6" aria-pressed="false"><img src="media/posters/b6-ours.jpg" loading="lazy" alt="Home interior"><span>RE10K · 128 views</span></button>
+          </div>
+          <p class="player-status" role="status">Drag to compare · synchronized video playback</p>
+          <video class="source-video" muted playsinline loop preload="none" hidden></video>
+        </article>
+
+        <p class="protocol-note">These videos interleave context views (<strong>CTX</strong>) and held-out novel views (<strong>NVS</strong>); the badge identifies the current frame. Scenes are reconstructed from context images only. Each method estimates its own camera poses using the paper's evaluation protocol. Playback speed is for visualization and does not measure inference throughput.</p>
+        <noscript><p class="notice">Enable JavaScript for synchronized comparisons. The individual videos below can also be viewed with their native controls.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section" id="quantitative">
+      <div class="container">
+        <h2>Quality and compactness</h2>
+        <p class="section-lede">Benchmark averages using complete accumulated scenes and held-out target views.</p>
+        <div class="table-options">
+          <div class="segmented" aria-label="Benchmark"><button type="button" data-dataset="dl3dv" class="selected" aria-pressed="true">DL3DV</button><button type="button" data-dataset="re10k" aria-pressed="false">RealEstate10K</button></div>
+          <label>Context views <select id="table-context"><option>64</option><option selected>96</option><option>128</option></select></label>
+        </div>
+        <div class="table-scroll"><table id="results-table"><caption class="sr-only">Benchmark results</caption><thead><tr><th scope="col">Method</th><th scope="col">PSNR ↑</th><th scope="col">SSIM ↑</th><th scope="col">LPIPS ↓</th><th scope="col"># Gaussians (M) ↓</th></tr></thead><tbody>
+          <tr><th scope="row">ReCoSplat (official)</th><td>13.67</td><td>0.237</td><td>0.654</td><td>13.17</td></tr>
+          <tr><th scope="row">ReCoSplat (adapted)</th><td>15.74</td><td>0.282</td><td>0.606</td><td>13.17</td></tr>
+          <tr><th scope="row">OF3GS</th><td>15.31</td><td>0.404</td><td>0.545</td><td>10.45</td></tr>
+          <tr class="ours-row"><th scope="row">LonGaussian (Ours)</th><td>18.88</td><td>0.575</td><td>0.420</td><td>3.54</td></tr>
+        </tbody></table></div>
+        <p class="table-note">Best entries are emphasized. WorldMirror and AnySplat exceed the 24 GB budget at all reported lengths; see the paper for the full table. ReCoSplat (adapted) is our local resolution adaptation of the released model. OF3GS has a slight LPIPS advantage on RE10K at 64 context views.</p>
+      </div>
+    </section>
+
+    <section class="section tinted" id="more-scenes">
+      <div class="container wide">
+        <h2>More scenes</h2>
+        <p class="section-lede">LonGaussian renderings along indoor and outdoor sequences. Select a video to pause or resume.</p>
+        <div class="video-mosaic">
+          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b1-ours.jpg" data-src="media/videos/b1-ours.mp4" aria-label="Sculpture garden rendering"></video><figcaption>Sculpture garden <span>DL3DV · 64 views</span></figcaption></figure>
+          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b2-ours.jpg" data-src="media/videos/b2-ours.mp4" aria-label="Living room rendering"></video><figcaption>Living room <span>DL3DV · 96 views</span></figcaption></figure>
+          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/a4-ours.jpg" data-src="media/videos/a4-ours.mp4" aria-label="Stairway rendering"></video><figcaption>Stairway <span>RE10K · 64 views</span></figcaption></figure>
+          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b5-ours.jpg" data-src="media/videos/b5-ours.mp4" aria-label="Hallway rendering"></video><figcaption>Hallway <span>RE10K · 96 views</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="scalability">
+      <div class="container">
+        <h2>Beyond short sequences</h2>
+        <p class="section-lede">A single-scene case study extending to thousands of frames.</p>
+        <figure class="paper-figure"><button type="button" class="figure-zoom" data-image="media/images/long-scene.webp" aria-label="Enlarge the long-sequence Gaussian map"><img src="media/images/long-scene.webp" loading="lazy" alt="Reconstructed Gaussian map and camera trajectory of the long-sequence scene"></button><figcaption>Accumulated geometry and the estimated camera trajectory from the ultra-long sequence.</figcaption></figure>
+        <div class="scaling-layout">
+          <div class="prose"><h3>Bounded construction memory</h3><p>In this scene, construction time and Gaussian count grow approximately linearly across six prefixes. Peak construction memory stays near 20 GB.</p><p>Long-range revisits remain challenging: LoGeR pose errors can misalign distant chunks and produce ghosting. The long-sequence image metrics use a local seven-chunk scope, so they do not establish full-scene global rendering fidelity.</p><p class="small-note">Resource measurements cover streaming construction; time excludes model loading, metric rendering, and offline prefix filtering.</p></div>
+          <figure><button type="button" class="figure-zoom" data-image="media/images/scalability.webp" aria-label="Enlarge construction resource curves"><img src="media/images/scalability.webp" loading="lazy" alt="Construction memory, elapsed time, and Gaussian count across sequence prefixes"></button><figcaption>Measured resource scaling from the paper.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="geometry">
+      <div class="container">
+        <h2>Explore the reconstruction</h2>
+        <p class="section-lede">Explore indoor and outdoor scenes reconstructed from complete context sequences. Select a scene, then load its Gaussian rendering.</p>
+        <div class="geometry-scenes scene-strip" aria-label="Interactive reconstruction scene">
+          <button type="button" class="scene-choice selected" data-geometry-scene="garden" aria-pressed="true"><img src="media/geometry/garden/poster.jpg" loading="lazy" alt="Sculpture garden"><span>Sculpture garden<br>64 views</span></button>
+          <button type="button" class="scene-choice" data-geometry-scene="courtyard" aria-pressed="false"><img src="media/geometry/courtyard/poster.jpg" loading="lazy" alt="Domed courtyard"><span>Domed courtyard<br>96 views</span></button>
+          <button type="button" class="scene-choice" data-geometry-scene="showroom" aria-pressed="false"><img src="media/geometry/showroom/poster.jpg" loading="lazy" alt="Furniture showroom"><span>Furniture showroom<br>96 views</span></button>
+        </div>
+        <div class="geometry-shell" id="geometry-shell">
+          <div id="splat-mount"></div>
+          <div class="geometry-placeholder" id="geometry-placeholder"><button type="button" class="pill" id="load-geometry">Explore in 3D <small>130 MiB</small></button><p id="geometry-status" role="status">Gaussian rendering · loads on demand</p></div>
+          <div class="geometry-toolbar" hidden><span>Sculpture garden · 64 views</span><button type="button" id="reset-geometry">Reset view</button><button type="button" id="fullscreen-geometry">Fullscreen</button></div>
+        </div>
+        <p class="geometry-hint" id="geometry-instructions">Drag to orbit · right-drag to pan · scroll to zoom · Reset view to return</p>
+        <p class="small-note centered">Each viewer loads the complete reconstructed scene, with view-dependent Gaussian colors. Explore nearby views within the camera coverage; Reset view returns to the original camera.</p>
+      </div>
+    </section>
+
+    <section class="section" id="citation">
+      <div class="container">
+        <h2>BibTeX</h2>
+        <div class="citation-card"><button type="button" id="copy-citation">Copy</button><pre id="bibtex">@misc{xie2026longaussian,
+  title={LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction},
+  author={Xie, Zhoufeng and Wu, Guanjun and Zhang, Shuai and Wang, Xinggang and Liu, Wenyu},
+  year={2026}
+}</pre></div>
+        <p class="small-note">Citation metadata will be updated when the public paper record is available.</p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container"><p>LonGaussian · Huazhong University of Science and Technology</p><p>Website design inspired by <a href="https://join16.github.io/page-atsplat/">ATSplat</a>. All reconstruction media shown here come from LonGaussian experiments.</p><a href="#top">Back to top ↑</a></div></footer>
+  <dialog id="figure-dialog"><button type="button" id="close-figure" aria-label="Close enlarged figure">Close ✕</button><img alt="Enlarged research figure"></dialog>
+</body>
+</html>

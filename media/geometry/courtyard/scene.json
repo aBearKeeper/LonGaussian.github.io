@@ -1,0 +1,74 @@
+{
+  "scene": "Domed courtyard",
+  "scope": "Full scene reconstructed from 96 context views",
+  "sceneId": "c076929db6501cf7ebe386c70e6d77ea3af844a745e794f2ec17c981c465a69b",
+  "count": 1497187,
+  "sourceCount": 1508521,
+  "invalidCount": 0,
+  "nativeOpacityThreshold": 0.01,
+  "nativeThresholdExcludedCount": 11334,
+  "contextCount": 96,
+  "referenceFrame": 55,
+  "cameraPosition": [
+    0,
+    0,
+    0
+  ],
+  "cameraLookAt": [
+    6.070478439331055,
+    0.7656540274620056,
+    -2.254303455352783
+  ],
+  "cameraUp": [
+    -0.04492644965648651,
+    -0.9028410911560059,
+    -0.42762118577957153
+  ],
+  "cameraFov": 65.3838829527471,
+  "near": 0.01,
+  "far": 10000000000,
+  "K": [
+    [
+      214.4479217529297,
+      0,
+      245
+    ],
+    [
+      0,
+      218.139892578125,
+      140
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "H": 280,
+  "W": 490,
+  "coordinateCenter": [
+    -0.623323917388916,
+    0.4931029677391052,
+    -1.0004730224609375
+  ],
+  "coordinateScale": 1,
+  "attributes": [
+    "means",
+    "scales",
+    "wxyz rotations",
+    "opacity",
+    "degree-2 SH"
+  ],
+  "compression": "KSPLAT level 1: float16 attributes and SH; uint8 alpha/color",
+  "opacityRemovalThreshold": 0,
+  "sampling": "No subsampling or spatial crop; native render opacity threshold only",
+  "urls": [
+    "reconstruction-00.ksplat",
+    "reconstruction-01.ksplat"
+  ],
+  "partCounts": [
+    1000000,
+    497187
+  ],
+  "bytes": 107987748
+}
