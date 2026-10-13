@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=09f116cf5d73">
+  <link rel="stylesheet" href="styles.css?v=9cac0898a260">
   <script src="script.js?v=ff11ac3cf416" defer></script>
 </head>
 <body>
@@ -117,7 +117,7 @@
         </article>
 
         <p class="protocol-note">These videos interleave context views (<strong>CTX</strong>) and held-out novel views (<strong>NVS</strong>); the badge identifies the current frame. Scenes are reconstructed from context images only. Each method estimates its own camera poses using the paper's evaluation protocol. Playback speed is for visualization and does not measure inference throughput.</p>
-        <noscript><p class="notice">Enable JavaScript for synchronized comparisons. The individual videos below can also be viewed with their native controls.</p></noscript>
+        <noscript><p class="notice">Enable JavaScript for synchronized comparisons and interactive Gaussian rendering.</p></noscript>
       </div>
     </section>
 
@@ -136,19 +136,6 @@
           <tr class="ours-row"><th scope="row">LonGaussian (Ours)</th><td>18.88</td><td>0.575</td><td>0.420</td><td>3.54</td></tr>
         </tbody></table></div>
         <p class="table-note">Best entries are emphasized. WorldMirror and AnySplat exceed the 24 GB budget at all reported lengths; see the paper for the full table. ReCoSplat (adapted) is our local resolution adaptation of the released model. OF3GS has a slight LPIPS advantage on RE10K at 64 context views.</p>
-      </div>
-    </section>
-
-    <section class="section tinted" id="more-scenes">
-      <div class="container wide">
-        <h2>More scenes</h2>
-        <p class="section-lede">LonGaussian renderings along indoor and outdoor sequences. Select a video to pause or resume.</p>
-        <div class="video-mosaic">
-          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b1-ours.jpg" data-src="media/videos/b1-ours.mp4" aria-label="Sculpture garden rendering"></video><figcaption>Sculpture garden <span>DL3DV · 64 views</span></figcaption></figure>
-          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b2-ours.jpg" data-src="media/videos/b2-ours.mp4" aria-label="Living room rendering"></video><figcaption>Living room <span>DL3DV · 96 views</span></figcaption></figure>
-          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/a4-ours.jpg" data-src="media/videos/a4-ours.mp4" aria-label="Stairway rendering"></video><figcaption>Stairway <span>RE10K · 64 views</span></figcaption></figure>
-          <figure><video data-ambient loop muted playsinline controls preload="none" poster="media/posters/b5-ours.jpg" data-src="media/videos/b5-ours.mp4" aria-label="Hallway rendering"></video><figcaption>Hallway <span>RE10K · 96 views</span></figcaption></figure>
-        </div>
       </div>
     </section>
 

@@ -121,10 +121,6 @@ tbody th { font-weight:500; }
 .ours-row th { color:var(--accent); font-weight:700; }
 td.best { font-weight:700; color:var(--accent); }
 .table-note { color:var(--faint); font-size:12px; line-height:1.7; margin-top:19px; }
-.video-mosaic { max-width:1000px; margin-inline:auto; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px; }
-.video-mosaic video { width:100%; aspect-ratio:490/280; border-radius:11px; background:#ebe6d8; }
-.video-mosaic figcaption { font-size:13px; color:var(--ink); margin-top:10px; display:flex; justify-content:space-between; gap:10px; }
-.video-mosaic figcaption span { color:var(--faint); font:11px/1.7 var(--mono); }
 .scaling-layout { display:grid; grid-template-columns:.85fr 1.15fr; align-items:center; gap:35px; margin-top:32px; }
 .scaling-layout h3 { margin-bottom:15px; font-size:21px; }
 .scaling-layout p { font-size:14px; }
@@ -189,7 +185,6 @@ footer a[href="#top"] { display:inline-block; margin-top:15px; }
   .time { font-size:9px; }
   .play-button { min-width:60px; font-size:11px; }
   .table-options { flex-wrap:wrap; gap:12px; }
-  .video-mosaic { grid-template-columns:1fr; gap:24px; }
   .geometry-hint { font-size:10px; }
   th,td { padding:11px; font-size:12px; }
 }
