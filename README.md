@@ -52,7 +52,7 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 
 发布前更新真实公开的论文/代码链接；Code (soon) 目前是不可点击的占位。
 作者信息来自论文源文件；未声明会议录用，未编造 arXiv 编号。
-BibTeX 暂为 misc 条目，待公开论文记录确定后更新。
+BibTeX 使用匿名的 ICLR 投稿条目，包含公开 OpenReview 链接和 under review 标记。
 
 ## 素材来源与维护
 
