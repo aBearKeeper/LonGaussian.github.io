@@ -1,31 +1,32 @@
 {
-  "revision": "v15",
+  "revision": "v16",
   "duration_seconds": 43.5,
-  "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery",
+  "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery",
   "method_chapter_seconds": [
     38.5,
     43.5
   ],
   "poster_video_frame": 0,
+  "university_logo": "media/images/hust-logo.png",
   "files": [
     {
-      "file": "media/videos/long-sequence-teaser-v15.webm",
-      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_preview_540p_43s5.webm",
-      "bytes": 7094362,
-      "sha256": "e46b8848b6fe298e56a3474ea4a083c2cb9c89d4da9b38fb14841fe51e220d41"
+      "file": "media/videos/long-sequence-teaser-v16.webm",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_preview_540p_43s5.webm",
+      "bytes": 7063817,
+      "sha256": "75e005a9ba15dea78a25d61dfabaa8a622d24e7b12de943885f6b6007a1ed89a"
     },
     {
-      "file": "media/videos/long-sequence-teaser-v15.mp4",
-      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_preview_540p_43s5.mp4",
-      "bytes": 9447998,
-      "sha256": "6b17618c054bd6d744e96e05d6899fbeaf5772e50478152e63ccffde57959274"
+      "file": "media/videos/long-sequence-teaser-v16.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_preview_540p_43s5.mp4",
+      "bytes": 9359260,
+      "sha256": "cb0abd2ef753669d745fbbc93ed73ac6cef0a3157749e966ee0ffcf81d48e142"
     },
     {
-      "file": "media/videos/long-sequence-teaser-v15-720p.mp4",
-      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_720p_43s5.mp4",
-      "bytes": 20808197,
-      "sha256": "6a4ce5b0d2a0014d29dcfb67fe5dd576e821b36974f9821d912454cae9262815"
+      "file": "media/videos/long-sequence-teaser-v16-720p.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_720p_43s5.mp4",
+      "bytes": 20630755,
+      "sha256": "4718b8cbc468dd670d3b2bc3056a9d4505e28e2788d8f3ed7165fbe00d1e10e9"
     }
   ],
-  "notes": "Exact v15 delivery exports. Title, authors and affiliation accompany the input-film animation. Last 128 input frames last 1.5 seconds, braking to a stop; a 0.5-second eased dissolve leads into the approved global scene. All v14 content from the global orbit onward retains its frame order and playback rate, shifted by 0.8 seconds."
+  "notes": "Exact validated v16 exports. White presentation canvas in every chapter and transition, dark text and gold accents. The cover uses the complete horizontal HUST identity PNG provided by the user, with original colors, proportions and transparency. The 1.5-second final film segment, braking, frame order, native scene RGB panels and playback rates retain the approved setup."
 }

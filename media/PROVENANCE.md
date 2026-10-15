@@ -17,17 +17,22 @@ or image retouching was performed.
 
 ## Long-sequence overview video
 
-`videos/long-sequence-teaser-v15.webm` and `.mp4` are byte-identical copies of the
-validated v15 preview exports. `videos/long-sequence-teaser-v15-720p.mp4` is the
+`videos/long-sequence-teaser-v16.webm` and `.mp4` are byte-identical copies of the
+validated v16 preview exports. `videos/long-sequence-teaser-v16-720p.mp4` is the
 presentation export. All last 43.5 seconds and retain the actual paper-method
 closing page at 38.5–43.5 seconds. The opening is a dynamic cover: the full title,
 five authors and affiliation remain visible alongside the actual input film.
 The final 128 input frames last 1.5 seconds and brake to a stop; an eased
 half-second dissolve leads into the global Gaussian scene. The poster is the
-actual first frame of the video.
+actual first frame of the video. The presentation canvas is white throughout
+all chapters and transitions, with dark text and gold accents. The upper-right
+cover mark is the complete user-provided horizontal HUST identity PNG, resized
+uniformly with its original colors and transparency. Its source and checksum
+are recorded in `hust-logo-provenance.json`.
 
-All v14 content from the global orbit through the method ending retains the
-same frame order and playback speed, shifted by 0.8 seconds. The three selected
+The native v14 render panels retain the same frame order and playback speed,
+shifted by 0.8 seconds. The surrounding presentation graphics and the method
+page are recomposed on white. The three selected
 walkthroughs each remain 5.5 seconds, spanning source ranges 250–670, 850–1180
 and 1446–1836. No scene appearance correction or interpolation was applied.
 

@@ -1,0 +1,8 @@
+{
+  "asset": "media/images/hust-logo.png",
+  "source": "User-provided university identity asset: 14.彩色中英文左右.png",
+  "identity": "Horizontal HUST emblem with complete Chinese and English university names",
+  "processing": "Original PNG copied byte for byte; uniformly scaled and alpha-composited at the upper right of the white video title cover. Artwork, original colors and transparency retained.",
+  "sha256": "ad7bd2ed965c8cabf81bed7fb59006200ff14f0badda679be639a9e91bc23cd5",
+  "rights": "The university identity remains the property of Huazhong University of Science and Technology."
+}

@@ -68,7 +68,7 @@ sup { font-size:11px; }
 .overview-film { padding:54px 0 64px; }
 .overview-film .section-lede { margin-bottom:28px; }
 .overview-video-card { max-width:760px; margin-inline:auto; }
-.overview-video-card video { width:100%; height:auto; aspect-ratio:16/9; background:#111; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+.overview-video-card video { width:100%; height:auto; aspect-ratio:16/9; background:white; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
 .overview-video-card video:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
 .overview-video-card figcaption { text-align:center; }
 .overview-video-links { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:18px; margin-top:13px; color:var(--faint); font-size:13px; }
