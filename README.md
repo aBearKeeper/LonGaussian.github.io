@@ -26,6 +26,7 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 ## 页面内容
 
 - 实际渲染视频背景、论文信息和已核对的结果摘要。
+- 首页完整概览视频：42.7 秒，包含输入序列、全局场景、OF3GS 对比、加速漫游和 method 结尾；点击播放，支持下载 720p MP4。
 - Video results：DL3DV 与 RealEstate10K 共用一个拖动对比播放器，五个场景统一切换；支持 GT / OF3GS / ReCoSplat 参照。
 - 与论文 Table 1 一致的可切换指标表。
 - 长序列资源分析。
@@ -39,8 +40,9 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 三维场景可切换：雕塑花园（64 context views，130 MiB）、穹顶广场（96 views，103 MiB）、
 家具展厅（96 views，154 MiB）。每个场景为所选 context 序列的完整最终高斯场景，
 首次点击 Explore in 3D 才下载；已加载后切换会释放旧场景，再加载新场景。
-所有 KSPLAT 分片均小于 100 MiB，便于 GitHub 仓库托管。视频及三维区最大宽度为 588 px，
-减少对 490×280 原始分辨率的放大。
+所有 KSPLAT 分片均小于 100 MiB，便于 GitHub 仓库托管。对比视频及三维区最大宽度为 588 px，
+减少对 490×280 原始分辨率的放大。新概览视频最大宽度为 760 px，默认不预加载或自动播放，
+提供 WebM / MP4 格式以及独立 720p 下载。
 
 ## 发布到 GitHub Pages
 
@@ -52,7 +54,7 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 
 发布前更新真实公开的论文/代码链接；Code (soon) 目前是不可点击的占位。
 作者信息来自论文源文件；未声明会议录用，未编造 arXiv 编号。
-BibTeX 使用匿名的 ICLR 投稿条目，包含公开 OpenReview 链接和 under review 标记。
+页首、页脚和 BibTeX 已恢复真实作者及单位信息；投稿条目保留公开 OpenReview 链接和 under review 标记。
 
 ## 素材来源与维护
 

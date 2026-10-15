@@ -1,0 +1,31 @@
+{
+  "revision": "v14",
+  "duration_seconds": 42.7,
+  "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery",
+  "method_chapter_seconds": [
+    37.7,
+    42.7
+  ],
+  "poster_video_frame": 134,
+  "files": [
+    {
+      "file": "media/videos/long-sequence-teaser-v14.webm",
+      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_preview_540p_42s7_METHOD_END.webm",
+      "bytes": 6791049,
+      "sha256": "12f98843733db9dbdf1e53f20fad6f97f877017b5635a5821534bd22ab54e717"
+    },
+    {
+      "file": "media/videos/long-sequence-teaser-v14.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_preview_540p_42s7_METHOD_END.mp4",
+      "bytes": 9132227,
+      "sha256": "d0c4b31ec7c3745c0f7af2c82fc03380499741de9ec3e42cbe600111ac90dcf4"
+    },
+    {
+      "file": "media/videos/long-sequence-teaser-v14-720p.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_720p_42s7_METHOD_END.mp4",
+      "bytes": 20025852,
+      "sha256": "e4ad1f5dcfc3e509ae7e1ae511a7739b667a4fda30f08ad636f251fb87ef6cd4"
+    }
+  ],
+  "notes": "Exact delivered exports; no additional video edits, trimming or recoloring for the website. The comparison uses each method own reconstruction and camera estimates. Native local tour uses three chunks; global orbit uses the global Gaussian scene."
+}

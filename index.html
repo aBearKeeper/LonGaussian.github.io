@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="LonGaussian: compact, renderable Gaussian scenes from long image sequences through streaming geometry and tracking foundation priors.">
+  <meta name="author" content="Zhoufeng Xie, Guanjun Wu, Shuai Zhang, Xinggang Wang, Wenyu Liu">
   <meta property="og:title" content="LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction">
   <meta property="og:description" content="Stream long image sequences. Consolidate repeated observations. Render compact Gaussian scenes.">
   <meta property="og:image" content="media/posters/b2-ours.jpg">
@@ -12,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=782f64a4024f">
+  <link rel="stylesheet" href="styles.css?v=ab1a35565367">
   <script src="script.js?v=ff11ac3cf416" defer></script>
 </head>
 <body>
@@ -26,10 +27,13 @@
       <div class="hero-content container">
         <p class="kicker">Long-context feed-forward 3D reconstruction</p>
         <h1 id="paper-title"><span class="project-name"><span class="sr-only">L</span><img class="project-logo" src="media/images/project-logo.png" alt="" width="84" height="84"><span class="gradient-word">onGaussian:</span></span><span class="project-subtitle">Tracking Foundation Priors for Long-Context<br class="desktop-break"> Feedforward Gaussian Reconstruction</span></h1>
-        <p class="authors"><span>Anonymous Authors</span></p>
+        <p class="authors"><span>Zhoufeng Xie</span><span>Guanjun Wu</span><span>Shuai Zhang</span><span>Xinggang Wang</span><span>Wenyu Liu<sup>*</sup></span></p>
+        <p class="affiliation">Huazhong University of Science and Technology</p>
+        <p class="correspondence">* Corresponding author</p>
         <div class="publication-links">
           <a class="pill" href="media/longaussian.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h8"/></svg>Paper</a>
           <span class="pill unavailable" aria-label="Code release coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg>Code <small>(soon)</small></span>
+          <a class="pill" href="#demo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></svg>Watch video</a>
           <a class="pill" href="#results"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg>Video results</a>
         </div>
         <div class="hero-stats">
@@ -40,6 +44,22 @@
         <a href="#overview" class="discover">Explore the work <span aria-hidden="true">↓</span></a>
       </div>
       <button class="motion-button" id="toggle-motion" type="button" aria-pressed="false" hidden>Pause background</button>
+    </section>
+
+    <section class="section tinted overview-film" id="demo" aria-labelledby="demo-title">
+      <div class="container">
+        <h2 id="demo-title">Watch LonGaussian in action</h2>
+        <p class="section-lede">From thousands of input frames to a renderable Gaussian scene.</p>
+        <figure class="overview-video-card">
+          <video id="overview-video" controls playsinline preload="none" width="960" height="540" poster="media/posters/long-sequence-teaser-v14.webp" aria-label="LonGaussian long-sequence reconstruction overview" aria-describedby="overview-video-caption">
+            <source src="media/videos/long-sequence-teaser-v14.webm" type="video/webm">
+            <source src="media/videos/long-sequence-teaser-v14.mp4" type="video/mp4">
+            Your browser does not support video playback. <a href="media/videos/long-sequence-teaser-v14-720p.mp4">Download the video</a>.
+          </video>
+          <figcaption id="overview-video-caption">Input sequence, reconstructed scene, selected local renderings, and comparison with OF3GS.</figcaption>
+        </figure>
+        <div class="overview-video-links"><a href="media/videos/long-sequence-teaser-v14-720p.mp4" download>Download 720p MP4</a><span>42.7 seconds</span></div>
+      </div>
     </section>
 
     <section class="section" id="overview">
@@ -170,19 +190,19 @@
     <section class="section" id="citation">
       <div class="container">
         <h2>BibTeX</h2>
-        <div class="citation-card"><button type="button" id="copy-citation">Copy</button><pre id="bibtex">@inproceedings{anonymous2026longaussian,
+        <div class="citation-card"><button type="button" id="copy-citation">Copy</button><pre id="bibtex">@inproceedings{xie2026longaussian,
   title={LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction},
-  author={Anonymous},
+  author={Xie, Zhoufeng and Wu, Guanjun and Zhang, Shuai and Wang, Xinggang and Liu, Wenyu},
   booktitle={Submitted to The Fifteenth International Conference on Learning Representations},
   year={2026},
   url={https://openreview.net/forum?id=WiNCsgDP25},
   note={under review}
 }</pre></div>
-        <p class="small-note">Under review. Authors remain anonymous.</p>
+        <p class="small-note">Under review.</p>
       </div>
     </section>
   </main>
-  <footer><div class="container"><p>LonGaussian</p><p>Website design inspired by <a href="https://join16.github.io/page-atsplat/">ATSplat</a>. All reconstruction media shown here come from LonGaussian experiments.</p><a href="#top">Back to top ↑</a></div></footer>
+  <footer><div class="container"><p>LonGaussian · Huazhong University of Science and Technology</p><p>Website design inspired by <a href="https://join16.github.io/page-atsplat/">ATSplat</a>. All reconstruction media shown here come from LonGaussian experiments.</p><a href="#top">Back to top ↑</a></div></footer>
   <dialog id="figure-dialog"><button type="button" id="close-figure" aria-label="Close enlarged figure">Close ✕</button><img alt="Enlarged research figure"></dialog>
 </body>
 </html>
