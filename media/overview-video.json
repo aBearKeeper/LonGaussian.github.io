@@ -1,31 +1,31 @@
 {
-  "revision": "v14",
-  "duration_seconds": 42.7,
-  "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery",
+  "revision": "v15",
+  "duration_seconds": 43.5,
+  "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery",
   "method_chapter_seconds": [
-    37.7,
-    42.7
+    38.5,
+    43.5
   ],
-  "poster_video_frame": 134,
+  "poster_video_frame": 0,
   "files": [
     {
-      "file": "media/videos/long-sequence-teaser-v14.webm",
-      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_preview_540p_42s7_METHOD_END.webm",
-      "bytes": 6791049,
-      "sha256": "12f98843733db9dbdf1e53f20fad6f97f877017b5635a5821534bd22ab54e717"
+      "file": "media/videos/long-sequence-teaser-v15.webm",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_preview_540p_43s5.webm",
+      "bytes": 7094362,
+      "sha256": "e46b8848b6fe298e56a3474ea4a083c2cb9c89d4da9b38fb14841fe51e220d41"
     },
     {
-      "file": "media/videos/long-sequence-teaser-v14.mp4",
-      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_preview_540p_42s7_METHOD_END.mp4",
-      "bytes": 9132227,
-      "sha256": "d0c4b31ec7c3745c0f7af2c82fc03380499741de9ec3e42cbe600111ac90dcf4"
+      "file": "media/videos/long-sequence-teaser-v15.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_preview_540p_43s5.mp4",
+      "bytes": 9447998,
+      "sha256": "6b17618c054bd6d744e96e05d6899fbeaf5772e50478152e63ccffde57959274"
     },
     {
-      "file": "media/videos/long-sequence-teaser-v14-720p.mp4",
-      "source": "results/longaussian_short_teaser_20261015/final_43s_v14/delivery/LonGaussian_v14_720p_42s7_METHOD_END.mp4",
-      "bytes": 20025852,
-      "sha256": "e4ad1f5dcfc3e509ae7e1ae511a7739b667a4fda30f08ad636f251fb87ef6cd4"
+      "file": "media/videos/long-sequence-teaser-v15-720p.mp4",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v15/delivery/LonGaussian_v15_720p_43s5.mp4",
+      "bytes": 20808197,
+      "sha256": "6a4ce5b0d2a0014d29dcfb67fe5dd576e821b36974f9821d912454cae9262815"
     }
   ],
-  "notes": "Exact delivered exports; no additional video edits, trimming or recoloring for the website. The comparison uses each method own reconstruction and camera estimates. Native local tour uses three chunks; global orbit uses the global Gaussian scene."
+  "notes": "Exact v15 delivery exports. Title, authors and affiliation accompany the input-film animation. Last 128 input frames last 1.5 seconds, braking to a stop; a 0.5-second eased dissolve leads into the approved global scene. All v14 content from the global orbit onward retains its frame order and playback rate, shifted by 0.8 seconds."
 }
