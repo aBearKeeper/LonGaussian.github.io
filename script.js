@@ -300,8 +300,10 @@ updateTable();
 const dialog = document.querySelector('#figure-dialog');
 document.querySelectorAll('[data-image]').forEach(button => button.addEventListener('click', () => {
   const image = dialog.querySelector('img');
-  image.src = button.dataset.image;
+  const responsiveResource = button.classList.contains('resource-zoom') && window.matchMedia('(max-width: 560px)').matches;
+  image.src = responsiveResource ? button.querySelector('img').currentSrc : button.dataset.image;
   image.alt = button.querySelector('img').alt;
+  dialog.classList.toggle('resource-dialog', button.classList.contains('resource-zoom'));
   dialog.showModal();
 }));
 document.querySelector('#close-figure').addEventListener('click', () => dialog.close());

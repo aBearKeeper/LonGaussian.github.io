@@ -6,7 +6,7 @@ retain their original order and include context and held-out views. CTX/NVS badg
 identify each frame. Playback is 8 frames/s for viewing, not rendering throughput.
 Panels: GT / ReCoSplat official / ReCoSplat adapted / OF3GS / Ours.
 
-Figures and the PDF come from the current paper directory. Interactive Gaussian
+The method and scene figures and the PDF come from the current paper directory. Interactive Gaussian
 rendering is documented in `geometry/PROVENANCE.md` and built separately with
 `tools/export_final_scene.py` and `tools/compress_scene.mjs`.
 
@@ -30,3 +30,16 @@ three-chunk renderings. The OF3GS comparison retains each model's own estimated
 cameras and the measured capacity / pose-error annotations. It is a selected
 visualization, not a full-global-scene rendering benchmark. Exact source files,
 sizes and SHA-256 hashes are recorded in `overview-video.json`.
+
+## Website resource curves
+
+`images/scalability-resources.svg` and its stacked mobile version are dedicated
+website figures. They use the same six measurements as the paper resource plot,
+without smoothing, extrapolation, or changes to the recorded values. Both axes
+use linear scales. Panels (a)–(c) report peak allocated GPU memory, streaming
+construction time (converted from seconds to minutes), and the prefix-filtered
+compact representation plus dense complement (millions of Gaussians).
+
+Exact measurements, definitions, source paths, and source hashes are in
+`scalability-resources.json`. Rebuild the SVG and PNG exports with
+`python tools/plot_scalability.py` from the website directory (requires matplotlib).

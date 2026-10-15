@@ -13,8 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=ab1a35565367">
-  <script src="script.js?v=ff11ac3cf416" defer></script>
+  <link rel="stylesheet" href="styles.css?v=5d3088c437f7">
+  <script src="script.js?v=a79f828c031b" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#overview">Skip to content</a>
@@ -163,7 +163,7 @@
         <figure class="paper-figure"><button type="button" class="figure-zoom" data-image="media/images/long-scene.webp" aria-label="Enlarge the long-sequence Gaussian map"><img src="media/images/long-scene.webp" loading="lazy" alt="Reconstructed Gaussian map and camera trajectory of the long-sequence scene"></button><figcaption>Accumulated geometry and the estimated camera trajectory from the ultra-long sequence.</figcaption></figure>
         <div class="scaling-layout">
           <div class="prose"><h3>Bounded construction memory</h3><p>In this scene, construction time and Gaussian count grow approximately linearly across six prefixes. Peak construction memory stays near 20 GB.</p><p>Long-range revisits remain challenging: LoGeR pose errors can misalign distant chunks and produce ghosting. The long-sequence image metrics use a local seven-chunk scope, so they do not establish full-scene global rendering fidelity.</p><p class="small-note">Resource measurements cover streaming construction; time excludes model loading, metric rendering, and offline prefix filtering.</p></div>
-          <figure><button type="button" class="figure-zoom" data-image="media/images/scalability.webp" aria-label="Enlarge construction resource curves"><img src="media/images/scalability.webp" loading="lazy" alt="Construction memory, elapsed time, and Gaussian count across sequence prefixes"></button><figcaption>Measured resource scaling from the paper.</figcaption></figure>
+          <figure class="resource-figure"><button type="button" class="figure-zoom resource-zoom" data-image="media/images/scalability-resources.svg" aria-label="Enlarge construction resource curves"><picture><source media="(max-width: 560px)" srcset="media/images/scalability-resources-stacked.svg"><img src="media/images/scalability-resources.svg" loading="lazy" width="1140" height="385" alt="Six measured sequence prefixes: (a) peak allocated GPU memory stays near 20 GB within a 24 GB budget; (b) construction time and (c) Gaussian count grow approximately linearly. At 3,768 input frames: 20.05 GB, 24.1 minutes, and 208.3 million Gaussians."></picture></button><figcaption>Six prefixes of one scene. Memory denotes peak allocated GPU memory.</figcaption></figure>
         </div>
       </div>
     </section>
@@ -202,7 +202,7 @@
       </div>
     </section>
   </main>
-  <footer><div class="container"><p>LonGaussian · Huazhong University of Science and Technology</p><p>Website design inspired by <a href="https://join16.github.io/page-atsplat/">ATSplat</a>. All reconstruction media shown here come from LonGaussian experiments.</p><a href="#top">Back to top ↑</a></div></footer>
+  <footer><div class="container"><p>LonGaussian · Huazhong University of Science and Technology</p><p>All reconstruction media shown here come from LonGaussian experiments.</p><a href="#top">Back to top ↑</a></div></footer>
   <dialog id="figure-dialog"><button type="button" id="close-figure" aria-label="Close enlarged figure">Close ✕</button><img alt="Enlarged research figure"></dialog>
 </body>
 </html>

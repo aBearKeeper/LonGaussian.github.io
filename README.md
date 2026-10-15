@@ -1,6 +1,6 @@
 # LonGaussian project page
 
-全新静态项目页，视觉设计参考 ATSplat。没有构建步骤，可在本地运行或部署到 GitHub Pages。
+静态项目页，没有构建步骤，可在本地运行或部署到 GitHub Pages。
 
 ## 下载和本地查看
 
@@ -29,7 +29,7 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 - 首页完整概览视频：42.7 秒，包含输入序列、全局场景、OF3GS 对比、加速漫游和 method 结尾；点击播放，支持下载 720p MP4。
 - Video results：DL3DV 与 RealEstate10K 共用一个拖动对比播放器，五个场景统一切换；支持 GT / OF3GS / ReCoSplat 参照。
 - 与论文 Table 1 一致的可切换指标表。
-- 长序列资源分析。
+- 长序列资源分析：专用金色 SVG 曲线，(a)–(c) 展示显存、耗时和高斯数量，手机自动改为竖排。
 - 按需加载的真正高斯渲染（完整尺度、旋转、透明度及二阶球谐颜色），支持旋转、平移、缩放、重置和全屏。
 - 论文图放大与 BibTeX 复制。
 
@@ -64,6 +64,7 @@ media/PROVENANCE.md 记录素材来源。当前视频从原始真实推理渲染
 细节见 media/geometry/PROVENANCE.md。
 
 tools/prepare_media.py 与 tools/prepare_webm.py 重建视频和图片；
+tools/plot_scalability.py 根据 media/scalability-resources.json 重建网页专用资源曲线；
 tools/export_final_scene.py 与 tools/compress_scene.mjs 导出并分片压缩完整高斯场景。
 这些工具用于原研究工作区，
 运行网页不需要这些脚本。新增场景时同步更新 media/scenes.json；每个比较视频
