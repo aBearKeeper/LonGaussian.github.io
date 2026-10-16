@@ -308,22 +308,6 @@ document.querySelectorAll('[data-image]').forEach(button => button.addEventListe
 }));
 document.querySelector('#close-figure').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-document.querySelector('#copy-citation').addEventListener('click', async event => {
-  const button = event.currentTarget;
-  const text = document.querySelector('#bibtex').textContent;
-  try {
-    await navigator.clipboard.writeText(text);
-    button.textContent = 'Copied';
-  } catch (_) {
-    const range = document.createRange();
-    range.selectNodeContents(document.querySelector('#bibtex'));
-    const selection = window.getSelection();
-    selection.removeAllRanges(); selection.addRange(range);
-    button.textContent = 'Selected — copy manually';
-  }
-  setTimeout(() => { button.textContent = 'Copy'; }, 2200);
-});
-
 // Select a reconstruction without downloading it; load only on explicit request.
 let geometryScenes = [], geometryScene = null, geometry = null, geometryLoading = false;
 const geometryButton = document.querySelector('#load-geometry');

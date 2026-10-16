@@ -153,9 +153,6 @@ td.best { font-weight:700; color:var(--accent); }
 .geometry-toolbar span { background:#29271ecc; flex:0 1 auto; border-radius:6px; padding:7px 10px; margin-right:auto; }
 .geometry-hint { color:var(--muted); text-align:center; font:11px/1.8 var(--mono); margin-top:18px; }
 .geometry-shell:fullscreen { width:100%; height:100%; max-width:none; border:0; border-radius:0; }
-.citation-card { position:relative; border-radius:var(--radius); background:#29271e; overflow:hidden; }
-.citation-card pre { margin:0; padding:35px 30px; color:#f0ead5; font:12px/1.9 var(--mono); overflow:auto; white-space:pre; }
-#copy-citation { position:absolute; top:12px; right:12px; border:1px solid #ffffff30; border-radius:6px; padding:5px 11px; font-size:11px; color:#f0ead5; background:#ffffff15; }
 footer { padding:35px 0; background:var(--tint); border-top:1px solid var(--line); text-align:center; color:var(--faint); font-size:12px; }
 footer p + p { margin-top:5px; }
 footer a[href="#top"] { display:inline-block; margin-top:15px; }
