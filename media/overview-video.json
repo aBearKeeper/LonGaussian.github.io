@@ -10,23 +10,33 @@
   "university_logo": "media/images/hust-logo.png",
   "files": [
     {
-      "file": "media/videos/long-sequence-teaser-v16.webm",
-      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_preview_540p_43s5.webm",
-      "bytes": 7063817,
-      "sha256": "75e005a9ba15dea78a25d61dfabaa8a622d24e7b12de943885f6b6007a1ed89a"
-    },
-    {
-      "file": "media/videos/long-sequence-teaser-v16.mp4",
-      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_preview_540p_43s5.mp4",
-      "bytes": 9359260,
-      "sha256": "cb0abd2ef753669d745fbbc93ed73ac6cef0a3157749e966ee0ffcf81d48e142"
+      "file": "media/videos/long-sequence-teaser-v16-720p.webm",
+      "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_720p_43s5.webm",
+      "bytes": 12346703,
+      "sha256": "4577840379b20b8d1a831c8807672db4a391b65d57067addd1ca643252f16962",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "role": "playback"
     },
     {
       "file": "media/videos/long-sequence-teaser-v16-720p.mp4",
       "source": "results/longaussian_short_teaser_20261015/final_44s_v16/delivery/LonGaussian_v16_720p_43s5.mp4",
       "bytes": 20630755,
-      "sha256": "4718b8cbc468dd670d3b2bc3056a9d4505e28e2788d8f3ed7165fbe00d1e10e9"
+      "sha256": "4718b8cbc468dd670d3b2bc3056a9d4505e28e2788d8f3ed7165fbe00d1e10e9",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "role": "playback_and_download"
     }
   ],
-  "notes": "Exact validated v16 exports. White presentation canvas in every chapter and transition, dark text and gold accents. The cover uses the complete horizontal HUST identity PNG provided by the user, with original colors, proportions and transparency. The 1.5-second final film segment, braking, frame order, native scene RGB panels and playback rates retain the approved setup."
+  "notes": "Exact validated v16 exports. White presentation canvas in every chapter and transition, dark text and gold accents. The cover uses the complete horizontal HUST identity PNG provided by the user, with original colors, proportions and transparency. The 1.5-second final film segment, braking, frame order, native scene RGB panels and playback rates retain the approved setup. Online playback upgraded to 720p in both formats. The WebM is encoded directly from the same validated 720p v16 master at VP9 CRF 25; no timeline or scene-image edits. The MP4 reuses the unchanged validated 720p download. Display size remains bounded to 760 CSS pixels.",
+  "playback": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "webm": "media/videos/long-sequence-teaser-v16-720p.webm",
+    "mp4": "media/videos/long-sequence-teaser-v16-720p.mp4",
+    "preload": "none"
+  }
 }
