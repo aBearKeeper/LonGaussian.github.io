@@ -110,9 +110,10 @@ figcaption { color:var(--faint); font-size:12px; line-height:1.6; margin-top:14p
 .frame-badge { padding:4px 7px; background:white; border-radius:5px; min-width:70px; text-align:center; }
 .frame-badge.nvs { color:var(--accent); background:#fbefc3; }
 .scene-strip { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:24px; }
-.scene-choice { display:block; width:112px; padding:3px; border:2px solid transparent; background:transparent; border-radius:9px; }
+.scene-choice { display:flex; flex-direction:column; justify-content:flex-start; align-items:stretch; flex:none; width:124px; padding:3px; border:2px solid transparent; background:transparent; border-radius:9px; }
 .scene-choice img { border-radius:5px; width:100%; aspect-ratio:490/280; object-fit:cover; }
 .scene-choice span { display:block; font:11px/1.5 var(--mono); margin-top:5px; color:var(--muted); }
+.result-block .scene-choice span { white-space:nowrap; }
 .scene-choice.selected { border-color:var(--yellow); background:white; }
 .player-status { text-align:center; color:var(--faint); font-size:12px; margin-top:15px; min-height:20px; }
 .protocol-note { max-width:920px; color:var(--faint); font-size:12px; text-align:center; line-height:1.7; margin:35px auto 0; }

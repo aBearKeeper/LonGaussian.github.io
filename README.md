@@ -27,7 +27,7 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 
 - 实际渲染视频背景、论文信息和已核对的结果摘要。
 - 首页完整概览视频：43.5 秒，全程白底，动态封面右上角使用作者提供的华科大横版校标；包含输入序列、全局场景、OF3GS 对比、加速漫游和 method 结尾，支持下载 720p MP4。
-- Video results：DL3DV 与 RealEstate10K 共用一个拖动对比播放器，五个场景统一切换；支持 GT / OF3GS / ReCoSplat 参照。
+- Visual comparisons：DL3DV 与 RealEstate10K 共用一个拖动对比播放器，五个场景统一切换；支持 GT / OF3GS / ReCoSplat 参照。
 - 与论文 Table 1 一致的可切换指标表。
 - 长序列资源分析：专用金色 SVG 曲线，(a)–(c) 展示显存、耗时和高斯数量，手机自动改为竖排。
 - 按需加载的真正高斯渲染（完整尺度、旋转、透明度及二阶球谐颜色），支持旋转、平移、缩放、重置和全屏。
@@ -43,6 +43,8 @@ macOS / Linux 若找不到 python，可使用 python3。浏览器打开 http://l
 所有 KSPLAT 分片均小于 100 MiB，便于 GitHub 仓库托管。对比视频及三维区最大宽度为 588 px，
 减少对 490×280 原始分辨率的放大。新概览视频最大宽度为 760 px，默认不预加载或自动播放，
 提供 WebM / MP4 格式以及独立 720p 下载。
+首页 Overview video 打开论文概览短片，Compare methods 跳转到方法对比播放器。
+对比场景卡片的缩略图和标签均顶部对齐，帧数标签保持单行。
 
 ## 发布到 GitHub Pages
 
