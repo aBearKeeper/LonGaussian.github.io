@@ -53,8 +53,6 @@ sup { font-size:11px; }
 .pill:hover { text-decoration:none; color:var(--ink); background:var(--yellow); transform:translateY(-2px); }
 .pill svg { width:16px; height:16px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; }
 .pill small { font-size:11px; font-weight:400; opacity:.7; }
-.pill.unavailable { background:#6d695a; opacity:.7; cursor:default; }
-.pill.unavailable:hover { transform:none; }
 .hero-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); max-width:480px; margin:38px auto 0; gap:12px; }
 .hero-stats > div { border:1px solid #e6deca; border-radius:12px; padding:17px 12px; background:#ffffffbd; backdrop-filter:blur(8px); }
 .hero-stats strong { display:block; font:600 30px/1.1 var(--mono); color:var(--accent); }
